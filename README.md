@@ -1,26 +1,30 @@
 # Olá, eu sou o Victor 👋
 
-- 🎓 Estudante de Sistemas de Informação na UFRRJ (ingresso em 2022)
-- 💻 Interesses: desenvolvimento de software (Java e C), bancos de dados SQL e engenharia de sistemas
-- 📚 Atualmente estudando: Java OO (curso do Nélio Alves – Udemy) e SQL (curso do André Iacono – Udemy)
-- 🔎 Buscando oportunidade de estágio em Tecnologia da Informação
+Sou estudante de Sistemas de Informação (UFRRJ) com foco em desenvolvimento backend e engenharia de software. Tenho experiência prática construindo e mantendo sistemas reais em uso, principalmente com **Java** e **SQL**.
 
-## Tecnologias e conceitos
+- 🎓 Sistemas de Informação — UFRRJ (2022–2027)
+- 🧠 Certificações: **CS50x (Harvard)** | **Advanced SQL (Kaggle)**
+- 🎯 Buscando estágio em **Backend / Software Engineering** (aberto a Dados quando fizer sentido)
 
-- Linguagens: **Java**, **C**
-- Conceitos: **Algoritmos e Estruturas de Dados**, **Banco de Dados Relacionais (SQL)**,
-  **Engenharia de Software**, **Sistemas Operacionais**, **Noções de Desenvolvimento Web (HTML/CSS/Java)**
-- Ferramentas: **Git**, **GitHub**, **VS Code**, **IntelliJ** / **Eclipse**
+## Stack principal
+- **Languages:** Java, SQL, C, Python, JavaScript  
+- **Backend & Web:** Spring Boot, REST APIs, Java Servlets, JSP, JSTL, HTML, CSS  
+- **Databases:** MySQL, PostgreSQL  
+- **Tools:** Git, GitHub, Maven, Apache Tomcat, IntelliJ IDEA, Eclipse, VS Code  
 
-## Alguns projetos
+## Projetos em destaque
+### 🔹 ERP para Loja de Artigos Esportivos (Java + SQL)
+Sistema ERP em uso contínuo que substituiu planilhas Excel, centralizando cadastro de produtos, controle de estoque e registro de vendas (CRUD) com banco de dados relacional.
 
-- `ERP-LOJAESPORTES` – ERP acadêmico para gestão de uma loja de artigos esportivos (Java)
-- `algoritmos-estruturas-dados-c-main` – Implementações de algoritmos e estruturas de dados em C
-- `projeto-extensao-ufrrj-java` – Aplicação web simples em Java + HTML/CSS
+### 🔹 Sincronizador de Catálogo (JavaFX + MySQL + Google Drive API)
+Sistema de integração que sincroniza automaticamente o catálogo público de produtos no Google Drive com o estoque real do ERP, usando **metadados (SKU)** como identidade técnica, regras determinísticas e atualizações condicionais (MD5).
+
+### 🔹 Algoritmos e Estruturas de Dados (C)
+Implementações e exercícios focados em raciocínio lógico e estruturas fundamentais (listas, recursão, árvores, etc.).
+
+### 🔹 Web App simples (Java Servlets + JSP + HTML/CSS)
+Aplicação web server-side construída com Servlet API e JSP, seguindo padrão MVC.
 
 ## Contato
-
-- 📩 E-mail: **victorhob23@gmail.com**
-- 🔗 LinkedIn: [Victor Hugo Oliveira](https://www.linkedin.com/in/victor-hugo-oliveira)
-- 💻 GitHub: [victorhob1981](https://github.com/victorhob1981)
-
+- 📩 Email: victorhob23@gmail.com  
+- 🔗 LinkedIn: https://www.linkedin.com/in/victor-ho-barbosa/  
