@@ -4,7 +4,7 @@ Sou estudante de Sistemas de Informação (UFRRJ) com foco em desenvolvimento ba
 
 - 🎓 Sistemas de Informação — UFRRJ (2022–2027)
 - 🧠 Certificações: **CS50x (Harvard)** | **Advanced SQL (Kaggle)**
-- 🎯 Buscando estágio em **Backend / Software Engineering** (aberto a Dados quando fizer sentido)
+- 🎯 Buscando oportunidade em **Backend / Software Engineering**
 
 ## Stack principal
 - **Languages:** Java, SQL, C, Python, JavaScript  
