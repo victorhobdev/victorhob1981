@@ -1,30 +1,59 @@
 # Olá, eu sou o Victor 👋
 
-Sou estudante de Sistemas de Informação (UFRRJ) com foco em desenvolvimento backend e engenharia de software. Tenho experiência prática construindo e mantendo sistemas reais em uso, principalmente com **Java** e **SQL**.
+Sou estudante de **Sistemas de Informação (UFRRJ)** e desenvolvedor com foco em **backend**, **cloud** e **dados** — gosto especialmente de construir sistemas “de vida real”: **APIs**, **autenticação**, **banco relacional**, **agendamentos/jobs**, **integrações** e **observabilidade**.
 
-- 🎓 Sistemas de Informação — UFRRJ (2022–2027)
+- 🎓 **Sistemas de Informação — UFRRJ** (2022–2027)
 - 🧠 Certificações: **CS50x (Harvard)** | **Advanced SQL (Kaggle)**
-- 🎯 Buscando oportunidade em **Backend / Software Engineering**
+- 🧩 Interesses: **Back-end**, **Cloud (Azure)**, **PostgreSQL/SQL**, **Integrações**, **Automação**
 
-## Stack principal
-- **Languages:** Java, SQL, C, Python, JavaScript  
-- **Backend & Web:** Spring Boot, REST APIs, Java Servlets, JSP, JSTL, HTML, CSS  
-- **Databases:** MySQL, PostgreSQL  
-- **Tools:** Git, GitHub, Maven, Apache Tomcat, IntelliJ IDEA, Eclipse, VS Code  
+---
+
+## Stack
+
+- **Languages:** Java, Python, SQL, TypeScript, JavaScript, C  
+- **Backend:** REST APIs, Auth/JWT, Scheduler/Jobs, Concurrency, Pydantic  
+- **Cloud:** Azure Functions, Timer Trigger, App Settings (Env Vars), Logs/Monitoring  
+- **Databases:** PostgreSQL (Supabase), MySQL  
+- **Frontend:** React, Vite, HTML, CSS  
+- **Tools:** Git, GitHub, VS Code, Maven, Apache Tomcat, IntelliJ IDEA, Eclipse  
+
+---
 
 ## Projetos em destaque
+
+### 🔹 OpsPulse — Scheduler e Monitor de Rotinas HTTP (Azure Functions + Supabase + React)
+Mini SaaS para cadastrar rotinas HTTP e acompanhar execuções com histórico.  
+**O que eu pratiquei aqui:** cloud na prática, deploy/config por env vars, autenticação JWT, modelagem relacional, scheduler e confiabilidade.
+
+**Destaques técnicos**
+- **API REST** em **Azure Functions (Python)**: CRUD de rotinas, execução manual, histórico (“runs”) e healthcheck  
+- **Auth** com **Supabase Auth** e validação de **JWT (Bearer token)** no backend  
+- **Scheduler** via **Timer Trigger** com *due window* (`next_run_at <= now`)  
+- **Concorrência/lock** (`lock_until/locked_by`) e limite de concorrência para evitar duplicidade (*race conditions*)  
+- **PostgreSQL (Supabase)** com **constraints** e **índices** para performance do scheduler e consultas por tempo  
+- **Segurança de segredos**: `secret_ref` via env vars; bloqueio de headers sensíveis (Authorization/Cookie/X-API-Key)  
+- **Frontend** em **React + TypeScript (Vite)** com auto-refresh para refletir execuções agendadas
+
+> Dica: se você estiver testando rotinas, endpoints como `https://httpbin.org/status/200` e `https://httpbin.org/status/500` são ótimos.
+
+---
+
 ### 🔹 ERP para Loja de Artigos Esportivos (Java + SQL)
-Sistema ERP em uso contínuo que substituiu planilhas Excel, centralizando cadastro de produtos, controle de estoque e registro de vendas (CRUD) com banco de dados relacional.
+Sistema ERP em uso contínuo que substituiu planilhas, centralizando **cadastro de produtos**, **controle de estoque** e **registro de vendas** com persistência em banco de dados relacional.
+
+**Destaques técnicos**
+- Implementação de **CRUD**, **validações** e **regras de negócio**
+- **Modelagem relacional**, consultas **SQL** e integração via **JDBC**
+- Evolução contínua com foco em **estabilidade** e **manutenibilidade**
+- Versionamento e organização do código com **Git/GitHub**
+
+---
 
 ### 🔹 Sincronizador de Catálogo (JavaFX + MySQL + Google Drive API)
-Sistema de integração que sincroniza automaticamente o catálogo público de produtos no Google Drive com o estoque real do ERP, usando **metadados (SKU)** como identidade técnica, regras determinísticas e atualizações condicionais (MD5).
+Sistema de integração que sincroniza o catálogo público de produtos no Google Drive com o estoque do ERP, usando **metadados (SKU)** como identidade técnica, regras determinísticas e atualizações condicionais por **MD5**.
 
-### 🔹 Algoritmos e Estruturas de Dados (C)
-Implementações e exercícios focados em raciocínio lógico e estruturas fundamentais (listas, recursão, árvores, etc.).
-
-### 🔹 Web App simples (Java Servlets + JSP + HTML/CSS)
-Aplicação web server-side construída com Servlet API e JSP, seguindo padrão MVC.
+---
 
 ## Contato
-- 📩 Email: victorhob23@gmail.com  
-- 🔗 LinkedIn: https://www.linkedin.com/in/victor-ho-barbosa/  
+- 📩 Email: **victorhob23@gmail.com**
+- 🔗 LinkedIn: **linkedin.com/in/victor-ho-barbosa**
