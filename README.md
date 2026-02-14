@@ -1,6 +1,7 @@
 # Olá, eu sou o Victor 👋
 
-Sou estudante de **Sistemas de Informação (UFRRJ)** e desenvolvedor com foco em **backend**, **cloud** e **dados** — gosto especialmente de construir sistemas “de vida real”: **APIs**, **autenticação**, **banco relacional**, **agendamentos/jobs**, **integrações** e **observabilidade**.
+Sou desenvolvedor com foco em **backend**, **cloud** e **dados** — gosto especialmente de construir sistemas “de vida real”: **APIs**, **autenticação**, **banco relacional**, **agendamentos/jobs**, **integrações** e **observabilidade**.
+Concluindo minha formação como estudante de **Sistemas de Informação (UFRRJ)**
 
 - 🎓 **Sistemas de Informação — UFRRJ** (2022–2027)
 - 🧠 Certificações: **CS50x (Harvard)** | **Advanced SQL (Kaggle)**
