@@ -5,7 +5,7 @@ Sou estudante de **Sistemas de Informação na UFRRJ** e estagiário em **Admini
 Minha atuação combina **banco de dados**, **SQL**, **engenharia de dados** e **desenvolvimento backend**. Trabalho com rotinas de banco de dados em ambiente corporativo e desenvolvo projetos próprios envolvendo APIs, bancos relacionais, automações, pipelines de dados e aplicações web.
 
 - 🎓 **Sistemas de Informação — UFRRJ** (2022–2027)
-- 💼 **Estagiário em DBA — Tasken** 
+- 💼 **Estagiário em DBA — Tasken** (desde mar/2026)
 - 🧠 **Certificações:** CS50x (Harvard) | Advanced SQL (Kaggle)
 - 🧩 **Foco:** Banco de Dados, DBA, Engenharia de Dados, Backend e Automação
 
@@ -34,7 +34,7 @@ Minha atuação combina **banco de dados**, **SQL**, **engenharia de dados** e *
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       </p>
       <p>
-        <a href="https://github.com/SEU_USUARIO/football-analytics">Ver repositório</a>
+        <a href="https://github.com/victorhobdev/football-analytics">Ver repositório</a>
       </p>
     </td>
     <td width="50%">
@@ -57,7 +57,7 @@ Minha atuação combina **banco de dados**, **SQL**, **engenharia de dados** e *
         <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
       </p>
       <p>
-        <a href="https://github.com/SEU_USUARIO/opspulse">Ver repositório</a>
+        <a href="https://github.com/victorhobdev/opspulse">Ver repositório</a>
       </p>
     </td>
   </tr>
@@ -80,7 +80,7 @@ Minha atuação combina **banco de dados**, **SQL**, **engenharia de dados** e *
         <img src="https://img.shields.io/badge/Database-4479A1?style=flat-square&logo=mysql&logoColor=white" />
       </p>
       <p>
-        <a href="https://github.com/SEU_USUARIO/LINK_DO_REPO_ERP">Ver repositório</a>
+        <a href="https://github.com/victorhobdev/LINK_DO_REPO_ERP">Ver repositório</a>
       </p>
     </td>
     <td width="50%">
@@ -101,7 +101,7 @@ Minha atuação combina **banco de dados**, **SQL**, **engenharia de dados** e *
         <img src="https://img.shields.io/badge/Integration-2E7D32?style=flat-square" />
       </p>
       <p>
-        <a href="https://github.com/SEU_USUARIO/LINK_DO_REPO_SYNC">Ver repositório</a>
+        <a href="https://github.com/victorhobdev/LINK_DO_REPO_SYNC">Ver repositório</a>
       </p>
     </td>
   </tr>
