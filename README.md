@@ -1,103 +1,189 @@
 # Olá, eu sou o Victor 👋
 
-Sou desenvolvedor com foco em **backend**, **SQL**, **automação** e **sistemas em produção**. Gosto de construir software de uso real, com atenção a **APIs**, **banco relacional**, **jobs/schedulers**, **integrações**, **troubleshooting**, **observabilidade** e **confiabilidade operacional**.
+Sou estudante de **Sistemas de Informação na UFRRJ** e estagiário em **Administração de Banco de Dados (DBA)** na Tasken.
 
-Atualmente curso **Sistemas de Informação na UFRRJ** e venho consolidando experiência prática em desenvolvimento, banco de dados e sustentação técnica.
+Minha atuação combina **banco de dados**, **SQL**, **engenharia de dados** e **desenvolvimento backend**. Trabalho com rotinas de banco de dados em ambiente corporativo e desenvolvo projetos próprios envolvendo APIs, bancos relacionais, automações, pipelines de dados e aplicações web.
 
 - 🎓 **Sistemas de Informação — UFRRJ** (2022–2027)
-- 💼 **Estagiário em DBA na Tasken** (desde mar/2026)
-- 🧠 Certificações: **CS50x (Harvard)** | **Advanced SQL (Kaggle)**
-- 🧩 Interesses: **Back-end**, **SQL/PostgreSQL**, **Banco de Dados**, **Automação**, **Cloud**, **Engenharia de Dados**
+- 💼 **Estagiário em DBA — Tasken** 
+- 🧠 **Certificações:** CS50x (Harvard) | Advanced SQL (Kaggle)
+- 🧩 **Foco:** Banco de Dados, DBA, Engenharia de Dados, Backend e Automação
 
 ---
 
-## Stack
+## Projetos em Destaque
 
-- **Languages:** Java, Python, SQL, TypeScript, JavaScript, C  
-- **Backend:** REST APIs, Auth/JWT, Scheduler/Jobs, Concurrency, Pydantic, FastAPI  
-- **Databases:** PostgreSQL, MySQL, modelagem relacional, índices, troubleshooting de consultas  
-- **Cloud:** Azure Functions, Timer Trigger, App Settings (Env Vars), Logs/Monitoring, Vercel  
-- **Frontend:** React, TypeScript, Vite, Next.js, HTML, CSS  
-- **Data / Analytics:** ingestão, tratamento de dados, consultas analíticas, organização para consumo em produto  
-- **Tools:** Git, GitHub, VS Code, Maven, Apache Tomcat, IntelliJ IDEA, Eclipse  
+<table>
+  <tr>
+    <td width="50%">
+      <h3>⚽ Football Analytics</h3>
+      <p>
+        Plataforma de dados e analytics de futebol para organização, tratamento
+        e exploração de dados históricos de competições, times, jogadores,
+        partidas e estatísticas.
+      </p>
+      <p>
+        O projeto reúne ingestão de dados, modelagem relacional, Data Warehouse,
+        APIs e uma interface web para análise e visualização dos dados.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      </p>
+      <p>
+        <a href="https://github.com/SEU_USUARIO/football-analytics">Ver repositório</a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>📊 OpsPulse</h3>
+      <p>
+        Aplicação para cadastro, execução e acompanhamento de rotinas HTTP
+        agendadas, com autenticação, histórico de execuções e controle
+        operacional.
+      </p>
+      <p>
+        O projeto trabalha conceitos de scheduler, autenticação JWT,
+        persistência relacional, execução automatizada e prevenção de execuções
+        duplicadas.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Azure_Functions-0062AD?style=flat-square&logo=azure-functions&logoColor=white" />
+        <img src="https://img.shields.io/badge/PostgreSQL-316192?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=flat-square&logo=supabase&logoColor=white" />
+        <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" />
+      </p>
+      <p>
+        <a href="https://github.com/SEU_USUARIO/opspulse">Ver repositório</a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🏪 ERP para Loja de Artigos Esportivos</h3>
+      <p>
+        Sistema para operação de loja, centralizando cadastro de produtos,
+        controle de estoque e registro de vendas com persistência em banco
+        relacional.
+      </p>
+      <p>
+        Implementa CRUDs, regras de negócio, consultas SQL, integração via JDBC
+        e organização do código em camadas.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white" />
+        <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white" />
+        <img src="https://img.shields.io/badge/JDBC-555555?style=flat-square" />
+        <img src="https://img.shields.io/badge/Database-4479A1?style=flat-square&logo=mysql&logoColor=white" />
+      </p>
+      <p>
+        <a href="https://github.com/SEU_USUARIO/LINK_DO_REPO_ERP">Ver repositório</a>
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🔄 Sincronizador de Catálogo</h3>
+      <p>
+        Sistema de integração entre catálogo público no Google Drive e estoque
+        do ERP, usando identificadores técnicos e regras determinísticas de
+        atualização.
+      </p>
+      <p>
+        Usa SKU como identidade entre sistemas, controle de alterações por MD5
+        e automação para reduzir atualização manual de catálogo.
+      </p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+        <img src="https://img.shields.io/badge/Google_Drive_API-4285F4?style=flat-square&logo=googledrive&logoColor=white" />
+        <img src="https://img.shields.io/badge/Automation-555555?style=flat-square" />
+        <img src="https://img.shields.io/badge/Integration-2E7D32?style=flat-square" />
+      </p>
+      <p>
+        <a href="https://github.com/SEU_USUARIO/LINK_DO_REPO_SYNC">Ver repositório</a>
+      </p>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ## Experiência
 
-### 🔹 Tasken — Estágio em DBA
-Atuação em apoio a rotinas de banco de dados e sustentação de ambiente, com foco em operação, acompanhamento de rotinas, investigação de falhas e suporte técnico.
+### 💼 Tasken — Estágio em DBA
 
-**Destaques**
-- Apoio em atividades de **monitoramento** e **saúde do ambiente**
-- Execução e análise de **consultas SQL** para validação e investigação de problemas
-- Suporte a rotinas operacionais, troubleshooting e análise de falhas
-- Contato prático com **banco em produção**, integridade de dados e suporte à estabilidade do ambiente
+Atuação em rotinas de banco de dados e sustentação técnica, com foco em operação, investigação de falhas, documentação e manutenção de ambientes corporativos.
 
----
+**Atividades principais:**
 
-## Projetos em destaque
-
-### 🔹 Football Analytics — Plataforma de dados e analytics de futebol
-Projeto autoral de uma plataforma full stack voltada à exploração de dados históricos de futebol, com foco em organização de domínio, consulta eficiente e experiência analítica no frontend.
-
-**O que eu pratiquei aqui:** modelagem de dados, ingestão e publicação de dados, APIs, performance de leitura, organização de produto e integração entre backend, banco e frontend.
-
-**Destaques técnicos**
-- Desenvolvimento de plataforma com **backend**, **banco relacional** e **frontend analítico**
-- Estruturação de dados de **competições**, **times**, **jogadores**, **partidas** e **estatísticas**
-- Construção de **APIs** e consultas com foco em **performance** e consistência
-- Desenvolvimento de páginas analíticas, rankings, tabelas e visualizações para consumo real
-- Uso de **Python**, **SQL**, **PostgreSQL**, **FastAPI**, **TypeScript** e **React/Next.js**
+- Análise e execução de consultas SQL para validação e troubleshooting
+- Apoio em rotinas de backup, jobs e automações
+- Investigação de falhas em procedures, rotinas e integrações
+- Documentação técnica de estruturas de banco de dados
+- Apoio à sustentação e estabilidade de ambientes internos
+- Contato prático com SQL Server, rotinas operacionais e bases corporativas
 
 ---
 
-### 🔹 OpsPulse — Scheduler e Monitor de Rotinas HTTP
-Mini SaaS para cadastrar rotinas HTTP e acompanhar execuções com histórico. Projeto focado em automação, confiabilidade e operação de rotinas agendadas.
+## Stack
 
-**O que eu pratiquei aqui:** cloud na prática, deploy/configuração por env vars, autenticação JWT, modelagem relacional, scheduler e confiabilidade operacional.
+### Banco de Dados
 
-**Destaques técnicos**
-- **API REST** em **Azure Functions (Python)** com CRUD de rotinas, execução manual, histórico de execuções e healthcheck
-- **Auth** com **Supabase Auth** e validação de **JWT (Bearer token)** no backend
-- **Scheduler** via **Timer Trigger** com seleção por janela (`next_run_at <= now`)
-- Controle de **concorrência/lock** para evitar duplicidade e *race conditions*
-- **PostgreSQL** com **constraints** e **índices** para performance do scheduler e consultas temporais
-- Tratamento de segredos por **env vars** e bloqueio de headers sensíveis
-- **Frontend** em **React + TypeScript** com atualização automática das execuções
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+
+SQL avançado, modelagem relacional, procedures, views, triggers, jobs, backup, recuperação e troubleshooting.
+
+### Dados
+
+![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
+![Apache Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
+![Great Expectations](https://img.shields.io/badge/Great_Expectations-FF6319?style=for-the-badge)
+![BI](https://img.shields.io/badge/BI-2E7D32?style=for-the-badge)
+
+ETL, Data Warehouse, OLAP, BI, consultas analíticas e organização de dados para consumo.
+
+### Backend
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=jsonwebtokens&logoColor=white)
+
+APIs REST, autenticação, integração com bancos relacionais, schedulers e rotinas automatizadas.
+
+### Frontend e Ferramentas
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+HTML, CSS, GitHub, VS Code, IntelliJ IDEA e Eclipse.
 
 ---
 
-### 🔹 ERP para Loja de Artigos Esportivos
-Sistema ERP para operação de loja, centralizando cadastro de produtos, controle de estoque e registro de vendas com persistência relacional.
+## Formação e Certificações
 
-**Destaques técnicos**
-- Implementação de **CRUD**, **validações** e **regras de negócio**
-- **Modelagem relacional**, consultas **SQL** e integração via **JDBC**
-- Evolução contínua com foco em **estabilidade**, **consistência** e **manutenibilidade**
-- Versionamento e organização do código com **Git/GitHub**
+- 🎓 **Sistemas de Informação** — UFRRJ
+- 🧠 **CS50x** — Harvard
+- 🧠 **Advanced SQL** — Kaggle
 
 ---
 
-### 🔹 Sincronizador de Catálogo
-Sistema de integração entre catálogo público no Google Drive e estoque do ERP, usando metadados técnicos e regras determinísticas de atualização.
+## Áreas de Atuação
 
-**Destaques técnicos**
-- Integração com **Google Drive API**
-- Uso de **SKU** como identidade técnica entre sistemas
-- Atualizações condicionais por **MD5**
-- Sincronização com foco em consistência e redução de retrabalho operacional
-
----
-
-## Áreas de interesse
-
-
-- **Desenvolvimento Back-end**
-- **SQL / Banco de Dados**
-- **Automação de rotinas**
-- **Sustentação técnica / Produção**
-- **Engenharia de Dados**
+- Administração de Banco de Dados
+- SQL e bancos relacionais
+- Engenharia de Dados
+- Desenvolvimento Backend
+- Automação de rotinas
+- Sistemas internos e aplicações de apoio operacional
 
 ---
 
