@@ -2,7 +2,7 @@
 
 Sou estudante de **Sistemas de Informação na UFRRJ** e estagiário em **Administração de Banco de Dados (DBA)** na Tasken.
 
-Minha atuação combina **banco de dados**, **SQL**, **engenharia de dados** e **desenvolvimento backend**. Trabalho com rotinas de banco de dados em ambiente corporativo e desenvolvo projetos próprios envolvendo APIs, bancos relacionais, automações, pipelines de dados e aplicações web.
+No estágio, atuo com **SQL Server** em ambiente produtivo — investigação de falhas, sustentação de procedures e rotinas de banco de dados. Nos projetos próprios, trabalho com **PostgreSQL**, pipelines de dados, APIs e automações.
 
 - 🎓 **Sistemas de Informação — UFRRJ** (2022–2027)
 - 💼 **Estagiário em DBA — Tasken** (desde mar/2026)
